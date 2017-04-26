@@ -107,13 +107,18 @@ nav ul li a{
     color: #fff;
     background: #02cc83;
     border: 0;
-    box-shadow: 0 4px 5px #7b7b7b;
+    box-shadow: 0 4px 0px #03a068;
     font-weight: 800;
     letter-spacing: 1px;
     text-transform: uppercase;
+    cursor: pointer;
 
 }
 
+.price-box ul li button:focus{
+     box-shadow: 0 0px 0px #03a068;
+     border: 0
+}
 
 .payment {
     margin: 0;
